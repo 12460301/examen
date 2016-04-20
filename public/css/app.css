@@ -1,0 +1,65 @@
+
+
+/*
+selectores css3
+clases se representa con"."
+id   se representa con "#"
+etiquetas  "tag" ejemplo div, ul 
+*/
+
+/*
+funcion demargenes
+del elemento hacia dentro
+	padding-top: 20px; 
+		
+del elemento hacia afuera
+margin-top: 20px; 
+*/
+#slider-libreria,#section2{
+	
+	margin-top: 30px; 
+
+}
+
+.slider .indicators .indicator-item {
+  
+   background-color: #e8f5e9;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #795548;
+}
+
+.btn-social{
+	font-size: 30px;
+	margin-left: 20px;
+
+}
+.campos-contacto{
+	
+padding-top: 5px;
+margin-left: 30px;
+margin-right: 250px;
+}
+body{
+background-image:url("/img/madera.png");
+	
+        
+}
+.form-acceso{
+	margin-top: 40px;
+	padding-bottom: 280px;
+}
+
+#navlist li a:hover { 
+color: #f4f4f4; 
+background: #333; 
+border-right: 4px solid #D01A71;} 
+#navlist li a:active { 
+color: #D01A71; 
+background: #333; 
+border-right: 4px solid #D01A71;} 
+
+.error{
+	color: red;
+	padding: 3px;
+}
